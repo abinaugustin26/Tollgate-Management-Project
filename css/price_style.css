@@ -1,0 +1,30 @@
+
+    #element1 {display:inline-block;margin-right:10px;text-align: center; } 
+#element2 {display:inline-block;padding-left : 20px;} 
+.a{
+    color: blue;
+}
+.img {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container
+  {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right:auto ;
+  }
